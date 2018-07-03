@@ -35,4 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/ScarletDevilMansion.unity
     guid: 4580ce3accb761c4283ad97ed51cd2a3
-  m_configObjects: {}
+  m_configObjects:
+    AddressableAssetSettings: {fileID: 11400000, guid: f4dda1c17dde9ce4fa5dc2595c25228e,
+      type: 2}

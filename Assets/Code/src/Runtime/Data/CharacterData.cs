@@ -3,9 +3,16 @@ using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using Random = System.Random;
 
 namespace HouraiTeahouse.FantasyCrescendo {
+
+[Serializable]
+public struct CharacterPallete {
+  public AssetReference Portrait;
+  public AssetReference Prefab;
+}
 
 /// <summary>
 /// A data object representing a playable character.
@@ -23,9 +30,11 @@ public class CharacterData : GameDataBase {
   [SerializeField, Resource(typeof(AudioClip))] string _victoryTheme;
   [Header("Visuals")]
   [SerializeField, Resource(typeof(Sprite))] string _icon;
+  public CharacterPallete[] Palletes;
   [SerializeField, Resource(typeof(Sprite))] string[] _portraits;
   public Vector2 PortraitCropCenter;
   public float PortraitCropSize;
+
 
   public Rect PortraitCropRect {
     get {
