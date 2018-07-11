@@ -10,9 +10,6 @@
 [submodule "Assets/Code/deps/HouraiOptions"]
 	path = Packages/HouraiOptions
 	url = https://github.com/HouraiTeahouse/HouraiOptions
-[submodule "Assets/Code/deps/Loadables"]
-	path = Packages/Loadables
-	url = https://github.com/HouraiTeahouse/Loadables
 [submodule "Assets/Code/deps/HouraiConfig"]
 	path = Packages/HouraiConfig
 	url = https://github.com/HouraiTeahouse/HouraiConfig
