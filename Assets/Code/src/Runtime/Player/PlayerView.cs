@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace HouraiTeahouse.FantasyCrescendo.Players {
 
@@ -23,9 +24,8 @@ public class PlayerView : IInitializable<PlayerConfig>, IStateView<PlayerState> 
   public async Task Initialize(PlayerConfig config) {
     var selection = config.Selection;
     var character = Registry.Get<CharacterData>().Get(selection.CharacterID);
-    var prefab = await character.Prefab.LoadAsync();
-
-    View = Object.Instantiate(prefab);
+    View = await character.Palletes[selection.Pallete].Prefab.Instantiate<GameObject>(Vector3.zero, Quaternion.identity).ToTask();
+    Assert.IsNotNull(View);
     View.name = $"Player {config.PlayerID + 1} View ({character.name}, {selection.Pallete})";
 
     PlayerUtil.DestroyAll(View, typeof(Collider), typeof(Hurtbox), typeof(Hitbox));

@@ -38,43 +38,39 @@ internal class CharacterDataTest : AbstractDataTest<CharacterData> {
 
   [Test, TestCaseSource("AllData")]
   public void has_a_prefab(CharacterData character) {
-    Assert.NotNull(character.Prefab.Load());
-  }
-
-  [Test, TestCaseSource("AllData")]
-  public void has_equal_pallete_and_portrait_counts(CharacterData character) {
-    var swap = character.Prefab.Load().GetComponent<CharacterColor>();
-    Assert.NotNull(swap);
-    Assert.AreEqual(swap.Count, character.Portraits.Count);
+    foreach (var pallete in character.Palletes) {
+      Assert.NotNull(pallete.Prefab.LoadAsset<GameObject>().ToTask().Result);
+    }
   }
 
   [TestCaseSource("ComponentCases")]
   public void has_component(CharacterData character, Type type) {
-    var prefab = character.Prefab.Load();
-    Assert.IsNotNull(prefab.GetComponentInChildren(type));
+    foreach (var pallete in character.Palletes) { 
+      var prefab = pallete.Portrait.LoadAsset<GameObject>().ToTask().Result;
+      Assert.IsNotNull(prefab.GetComponentInChildren(type));
+    }
   }
 
   [Test, TestCaseSource("AllData")]
   public void has_valid_portraits(CharacterData character) {
-    var portraits = character.Portraits;
-    foreach (var portrait in character.Portraits) {
-      Assert.NotNull(portrait.Load());
+    foreach (var pallete in character.Palletes) {
+      Assert.NotNull(pallete.Portrait.LoadAsset<Sprite>().ToTask().Result);
     }
   }
 
   [Test, TestCaseSource("AllData")]
   public void has_valid_icons(CharacterData character) {
-    Assert.NotNull(character.Icon.Load());
+    Assert.NotNull(character.Icon.LoadAsset<Sprite>().ToTask().Result);
   }
 
   [Test, TestCaseSource("AllData")]
   public void has_valid_home_stage(CharacterData character) {
-    Assert.NotNull(character.HomeStage);
+    Assert.NotNull(character.HomeStage.LoadAsset<SceneData>().ToTask().Result);
   }
 
   [Test, TestCaseSource("AllData")]
   public void has_valid_victory_theme(CharacterData character) {
-    Assert.NotNull(character.VictoryTheme.Load());
+    Assert.NotNull(character.VictoryTheme.LoadAsset<AudioClip>().ToTask().Result);
   }
 
 

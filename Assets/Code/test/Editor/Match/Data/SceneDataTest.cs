@@ -11,13 +11,13 @@ internal class SceneDataTest : AbstractDataTest<SceneData> {
   [Test, TestCaseSource("AllData")]
   public void has_valid_preview_image(SceneData scene) {
     if (scene.Type != SceneType.Stage) return;
-    Assert.NotNull(scene.PreviewImage.Load());
+    Assert.NotNull(scene.PreviewImage.LoadAsset<Sprite>().ToTask().Result);
   }
 
   [Test, TestCaseSource("AllData")]
   public void has_valid_icon(SceneData scene) {
     if (scene.Type != SceneType.Stage) return;
-    Assert.NotNull(scene.PreviewImage.Load());
+    Assert.NotNull(scene.Icon.LoadAsset<Sprite>().ToTask().Result);
   }
 
   [Test, TestCaseSource("AllData")]
@@ -30,7 +30,7 @@ internal class SceneDataTest : AbstractDataTest<SceneData> {
   [Test, TestCaseSource("AllData")]
   public void has_all_valid_music(SceneData scene) {
     foreach (var bgm in scene.Music) {
-      Assert.NotNull(bgm.Clip.Load());
+      Assert.NotNull(bgm.Clip.LoadAsset<AudioClip>().ToTask().Result);
     }
   }
 

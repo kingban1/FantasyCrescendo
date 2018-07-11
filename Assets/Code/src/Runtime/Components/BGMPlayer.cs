@@ -31,8 +31,9 @@ public class BGMPlayer : MonoBehaviour {
   }
 
   public async Task LoadBGM(BGM bgm) {
-    var clip = await bgm.Clip.LoadAsync();
-    if (AudioSource == null || clip == null) return;
+    if (AudioSource == null) return;
+    var clip = await bgm.Clip.LoadAsset<AudioClip>().ToTask();
+    if (clip == null) return;
     AudioSource.clip = clip;
   }
 

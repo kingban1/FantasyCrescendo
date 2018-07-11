@@ -26,7 +26,8 @@ public class ErrorScreen : MonoBehaviour {
   }
 
   public static async void TriggerError(string error, bool isFatal = false) {
-    await Config.Get<SceneConfig>().ErrorScene.LoadAsync();
+    // FIXME
+    // await Config.Get<SceneConfig>().ErrorScene.LoadAsync();
     var errorScreen = FindObjectOfType<ErrorScreen>();
     if (errorScreen == null) return;
     errorScreen.SetError(error, isFatal);

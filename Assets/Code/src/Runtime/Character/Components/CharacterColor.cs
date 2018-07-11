@@ -1,9 +1,9 @@
 using HouraiTeahouse.FantasyCrescendo.Players;
-using HouraiTeahouse.Loadables; 
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -21,23 +21,23 @@ public class CharacterColor : MonoBehaviour, IPlayerComponent {
     [Serializable]
     public class MaterialSet {
 
-      [Resource(typeof(Material))]
       [Tooltip("The materials to apply to the renderers")]
-      public string[] Materials;
+      public AssetReference[] Materials;
 
       public async Task Set(Renderer[] targets) {
         if (targets == null) {
           return;
         }
         Material[] materials;
-#if UNITY_EDITOR
-        if (!EditorApplication.isPlaying) {
-          materials = Materials.Select(path => Asset.Get<Material>(path).Load()).ToArray();
-          ApplyMaterials(materials, targets);
-          return;
-        }
-#endif
-        var materialTasks = Materials.Select(path => Asset.Get<Material>(path).LoadAsync());
+        // FIXME
+// #if UNITY_EDITOR
+//         if (!EditorApplication.isPlaying) {
+//           materials = Materials.Select(materialRef => materialRef.LoadAsync<Material>().ToTask()).ToArray();
+//           ApplyMaterials(materials, targets);
+//           return;
+//         }
+// #endif
+        var materialTasks = Materials.Select(materialRef => materialRef.LoadAsset<Material>().ToTask());
         materials = await Task.WhenAll(materialTasks);
         ApplyMaterials(materials, targets);
       }

@@ -14,9 +14,9 @@ public class PlayerSimulation : IInitializable<PlayerConfig>, ISimulation<Player
   public async Task Initialize(PlayerConfig config) {
     var selection = config.Selection;
     var character = Registry.Get<CharacterData>().Get(selection.CharacterID);
-    var prefab = await character.Prefab.LoadAsync();
-    Assert.IsNotNull(prefab);
-    Model = Object.Instantiate(prefab);
+    var pallete = character.Palletes[selection.Pallete];
+    Model = await pallete.Prefab.Instantiate<GameObject>(Vector3.zero, Quaternion.identity).ToTask();
+    Assert.IsNotNull(Model);
     Model.name = $"Player {config.PlayerID + 1} Simulation ({character.name}, {selection.Pallete})";
 
     PlayerUtil.DestroyAll(Model, typeof(Renderer), typeof(MeshFilter));

@@ -51,13 +51,20 @@ public struct PlayerSelection : IValidatable, INetworkSerializable {
 
   public uint CharacterID;            // 1-4 bytes
   public byte Pallete;                // 1 byte
-  
+
   public bool IsValid {
     get {
-      var character = Registry.Get<CharacterData>().Get(CharacterID);
+      var character = GetCharacterData();
       if (character == null) return false;
-      return Pallete < character.Portraits.Count;
+      return Pallete < character.Palletes.Length;
     }
+  }
+
+  public CharacterData GetCharacterData() => Registry.Get<CharacterData>().Get(CharacterID);
+
+  public CharacterPallete GetCharacterPallete() {
+    var character = GetCharacter();
+    return character.Palletes[Pallete % character.Palletes.Length];
   }
 
   public void Serialize(Serializer serializer) {

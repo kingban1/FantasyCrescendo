@@ -1,9 +1,8 @@
-﻿using HouraiTeahouse.Loadables;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.SceneManagement;
-using Scene = HouraiTeahouse.Loadables.Scene;
 
 namespace HouraiTeahouse.FantasyCrescendo {
 
@@ -11,7 +10,7 @@ public class SceneLoader : MonoBehaviour {
 
   public bool LoadOnAwake = true;
   public LoadSceneMode Mode;
-  [SerializeField, Scene] string[] _scenes;
+  [SerializeField] AssetReference[] _scenes;
 
   /// <summary>
   /// Awake is called when the script instance is being loaded.
@@ -23,7 +22,8 @@ public class SceneLoader : MonoBehaviour {
   }
 
   public async void LoadScenes() {
-    await Task.WhenAll(_scenes.Select(Scene.Get).Select(s => s.LoadAsync(Mode)));
+    // FIXME
+    // await Task.WhenAll(_scenes.Select(Scene.Get).Select(s => s.LoadAsync(Mode)));
     Debug.Log("Scenes loaded!");
   }
 

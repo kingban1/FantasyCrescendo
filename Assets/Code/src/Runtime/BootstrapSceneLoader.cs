@@ -26,7 +26,8 @@ public class BootstrapSceneLoader : MonoBehaviour {
     Debug.Log($"Bootstrap Scene Load Ordering: \n{builder}");
     if (sceneToLoad != null) {
       Debug.Log($"Loading {sceneToLoad}...");
-      await sceneToLoad.GameScene.LoadAsync();
+      // FIXME
+      // await sceneToLoad.GameScene.LoadAsync();
     } else {
       // TODO(james7132): Handle the error
     }
