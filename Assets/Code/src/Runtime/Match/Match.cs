@@ -20,12 +20,10 @@ public abstract class Match {
     if (loadScene) {
       var stage = Registry.Get<SceneData>().Get(config.StageID);
       Assert.IsTrue(stage != null && stage.Type == SceneType.Stage);
-      // FIXME
-      // await stage.GameScene.LoadAsync();
+      await stage.Scene.LoadSceneAsync();
     }
     var additionalScenes = Config.Get<SceneConfig>().AdditionalStageScenes;
-    // FIXME
-    // await Task.WhenAll(additionalScenes.Select(s => s.LoadAsync(LoadSceneMode.Additive)));
+    await Task.WhenAll(additionalScenes.Select(s => s.LoadSceneAsync(LoadSceneMode.Additive)));
     var matchManager = Object.FindObjectOfType<MatchManager>();
     matchManager.enabled = false;
     matchManager.Config = config;

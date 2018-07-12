@@ -9,8 +9,7 @@ public class TrainingGameMode : GameMode {
 
   protected override async Task RunGame(MatchConfig config, bool loadStage = true) {
     await new TrainingMatch().RunMatch(config, loadStage);
-    // FIXME
-    // await Config.Get<SceneConfig>().MainMenuScene.LoadAsync();
+    await Config.Get<SceneConfig>().MainMenuScene.LoadSceneAsync();
   }
 
 }

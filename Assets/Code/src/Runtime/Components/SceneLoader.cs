@@ -22,8 +22,7 @@ public class SceneLoader : MonoBehaviour {
   }
 
   public async void LoadScenes() {
-    // FIXME
-    // await Task.WhenAll(_scenes.Select(Scene.Get).Select(s => s.LoadAsync(Mode)));
+    await Task.WhenAll(_scenes.Select(s => s.LoadSceneAsync(Mode)));
     Debug.Log("Scenes loaded!");
   }
 
