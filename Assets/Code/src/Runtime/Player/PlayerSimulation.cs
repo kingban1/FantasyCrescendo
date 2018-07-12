@@ -15,7 +15,7 @@ public class PlayerSimulation : IInitializable<PlayerConfig>, ISimulation<Player
     var selection = config.Selection;
     var character = Registry.Get<CharacterData>().Get(selection.CharacterID);
     var pallete = character.Palletes[selection.Pallete];
-    Model = await pallete.Prefab.Instantiate<GameObject>(Vector3.zero, Quaternion.identity).ToTask();
+    Model = await pallete.Prefab.InstantiateAsync<GameObject>();
     Assert.IsNotNull(Model);
     Model.name = $"Player {config.PlayerID + 1} Simulation ({character.name}, {selection.Pallete})";
 

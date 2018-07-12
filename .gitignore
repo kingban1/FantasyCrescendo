@@ -10,7 +10,8 @@ Build/
 code_docs/
 
 bundles/
-Assets/StreamingAssets/bundles*
+Assets/StreamingAssets/*
+!Assets/StreamingAssets/lang
 
 # Ignore meta files of remote dependencies
 Assets/Code/deps/*.meta

@@ -37,7 +37,7 @@ public class CharacterColor : MonoBehaviour, IPlayerComponent {
 //           return;
 //         }
 // #endif
-        var materialTasks = Materials.Select(materialRef => materialRef.LoadAsset<Material>().ToTask());
+        var materialTasks = Materials.Select(materialRef => materialRef.LoadAssetAsync<Material>());
         materials = await Task.WhenAll(materialTasks);
         ApplyMaterials(materials, targets);
       }
