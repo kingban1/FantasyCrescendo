@@ -10,6 +10,7 @@ namespace HouraiTeahouse.FantasyCrescendo.Characters {
 public class CharacterPhysics : MonoBehaviour, IPlayerSimulation, IPlayerView {
 
   static Collider[] colliderDummy = new Collider[1];
+  static PhysicsConfig PhysicsConfig;
 
   public CharacterController CharacterController;
 
@@ -20,6 +21,15 @@ public class CharacterPhysics : MonoBehaviour, IPlayerSimulation, IPlayerView {
   public Transform LedgeGrabBone;
 
   public bool IsGrounded { get; private set; }
+
+  /// <summary>
+  /// Awake is called when the script instance is being loaded.
+  /// </summary>
+  void Awake() {
+    if (PhysicsConfig == null) {
+      PhysicsConfig = Config.Get<PhysicsConfig>();
+    }
+  }
 
   public Task Initialize(PlayerConfig config, bool isView) {
     if (LedgeGrabBone == null) {
@@ -61,9 +71,10 @@ public class CharacterPhysics : MonoBehaviour, IPlayerSimulation, IPlayerView {
         state.ReleaseLedge();
       }
     } else {
+      var wasGrounded = IsCharacterGrounded(state);
       CharacterController.Move(state.Velocity * Time.fixedDeltaTime);
       state.Position = transform.position;
-      if (IsCharacterGrounded(state)) {
+      if (wasGrounded) {
         state = SnapToGround(state);
       }
       if (state.GrabbedLedgeTimer < 0) {
@@ -98,10 +109,18 @@ public class CharacterPhysics : MonoBehaviour, IPlayerSimulation, IPlayerView {
   void ApplyGravity(ref PlayerState state) {
     if (state.IsRespawning || state.IsGrabbingLedge) return;
     if (!IsGrounded) {
-      state.VelocityY -= Gravity * Time.fixedDeltaTime;
+      state.VelocityY -= GetGravity(ref state) * Time.fixedDeltaTime;
     } else {
       state.VelocityY = Mathf.Max(0f, state.Velocity.y);
     }
+  }
+
+  float GetGravity(ref PlayerState state) {
+    // TODO(james7132): Add short hop additional gravity
+    if (state.Velocity.y < 0) {
+      return PhysicsConfig.DownwardGravityMultiplier * Gravity;
+    }
+    return Gravity;
   }
 
   void LimitFallSpeed(ref PlayerState state) {
@@ -114,22 +133,18 @@ public class CharacterPhysics : MonoBehaviour, IPlayerSimulation, IPlayerView {
   }
 
   PlayerState SnapToGround(PlayerState state) {
-    var config = Config.Get<PhysicsConfig>();
     var pool = ArrayPool<RaycastHit>.Shared;
     var hits = pool.Rent(1);
     var offset = Vector3.up * CharacterController.height * 0.5f;
-    var start = Vector3.up * config.GroundedSnapOffset;
+    var start = Vector3.up * PhysicsConfig.GroundedSnapOffset;
     var top = transform.TransformPoint(CharacterController.center + offset) + start;
     var bottom = transform.TransformPoint(CharacterController.center - offset) + start;
-    var distance = config.GroundedSnapOffset + config.GroundedSnapDistance;
+    var distance = PhysicsConfig.GroundedSnapOffset + PhysicsConfig.GroundedSnapDistance;
     var count = Physics.CapsuleCastNonAlloc(top, bottom, CharacterController.radius, Vector3.down, hits, 
-                                            distance, config.StageLayers, QueryTriggerInteraction.Ignore);
+                                            distance, PhysicsConfig.StageLayers, QueryTriggerInteraction.Ignore);
     if (count > 0) {
-      // TODO(james7132): Properly transform this back.
-      var pos = hits[0].point;
-      if (Mathf.Approximately(pos.x, state.Position.x)) {
-        state.Position = hits[0].point;
-      }
+      CharacterController.Move(-Vector3.up * distance);
+      state.Position = transform.position;
     }
     pool.Return(hits);
     return state;
