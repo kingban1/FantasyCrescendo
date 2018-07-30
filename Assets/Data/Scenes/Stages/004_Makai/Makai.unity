@@ -142,10 +142,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraTarget: {fileID: 350548761}
-  CameraSpeed: 1
+  SmoothTime: 0.5
   FoVRange: {x: 30, y: 90}
-  Padding: {x: 0, y: 0}
+  WidthPadding: 5
   TargetPositionBias: {x: 0, y: 1.5, z: 0}
+  MaxSpreadDistance: 50
   Targets: []
 --- !u!114 &350548761
 MonoBehaviour:
@@ -231,7 +232,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawn 4
   m_TagString: Spawn
-  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -291,16 +292,7 @@ Prefab:
         type: 2}
       propertyPath: Target
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114872650196101328, guid: 7a5f56393098bdf429da82c1cc54b467,
-        type: 2}
-      propertyPath: MatchManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1858135900578872, guid: 7a5f56393098bdf429da82c1cc54b467, type: 2}
-      propertyPath: m_Name
-      value: Main Camera
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 350548761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a5f56393098bdf429da82c1cc54b467, type: 2}
   m_IsPrefabAsset: 0
@@ -427,9 +419,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1996456345168662, guid: bf625dd01f80d7b41a53783c50b4317d, type: 2}
-      propertyPath: m_Name
-      value: Game Controller
+    - target: {fileID: 114890420545811106, guid: bf625dd01f80d7b41a53783c50b4317d,
+        type: 2}
+      propertyPath: Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114155364561766628, guid: bf625dd01f80d7b41a53783c50b4317d,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114155364561766628, guid: bf625dd01f80d7b41a53783c50b4317d,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf625dd01f80d7b41a53783c50b4317d, type: 2}
@@ -445,7 +448,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawn 2
   m_TagString: Spawn
-  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -594,7 +597,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawn 1
   m_TagString: Spawn
-  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -797,7 +800,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawn 3
   m_TagString: Spawn
-  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

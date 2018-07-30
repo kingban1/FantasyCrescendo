@@ -17,13 +17,13 @@
       {
         "files": [
           "api/**.yml",
-          "api/index.md"
+          "api/index.md",
         ]
       },
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
+          "guides/**.md",
+          "guides/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -34,6 +34,13 @@
         "files": [
           "images/**"
         ]
+      },
+      {
+        "files": [
+          "logo.png"
+        ],
+        "src": "../Assets/Assets/Sprites/",
+        "dst": "images"
       }
     ],
     "overwrite": [
@@ -48,7 +55,16 @@
       }
     ],
     "dest": "_site",
-    "globalMetadataFiles": [],
+    "globalMetadata": {
+      "_appTitle": "Fantasy Crescendo",
+      "_appLogoPath": "images/logo.png",
+      "_appFaviconPath": "images/logo.png",
+      "_enableSearch": true,
+      "_gitContribute": {
+        "repo": "https://github.com/HouraiTeahouse/FantasyCrescendo",
+        "branch": "develop"
+      }
+    },
     "fileMetadataFiles": [],
     "template": [
       "default"
