@@ -11,43 +11,852 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  pathForAsset: Assets/AddressableAssetsData/AddressableAssetSettings.asset
+  m_defaultGroup: 
   m_groups:
-  - name: Built In Data
-    guid: 969d61432ae0fc749a487a3c13661b73
+  - m_name: Built In Data
+    m_data:
+      m_serializedData: []
+    m_guid: e1e383746613b274c844d9b8a83e2379
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.PlayerDataAssetGroupProcessor
     m_serializeEntries:
-    - m_guid: Resources
-      m_address: Resources
-      m_readOnly: 1
-      m_serializedLabels: []
     - m_guid: EditorSceneList
       m_address: EditorSceneList
       m_readOnly: 1
       m_serializedLabels: []
-    processor: {fileID: 11400000, guid: 969d61432ae0fc749a487a3c13661b73, type: 2}
-    isDefault: 0
-    readOnly: 1
-  - name: Default Local Group
-    guid: 09a5d6063e72d6b438b7441ff1861062
+    - m_guid: Resources
+      m_address: Resources
+      m_readOnly: 1
+      m_serializedLabels: []
+    m_readOnly: 1
+  - m_name: Info
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 735f2a20e8e840a498bbdb342d9d880a
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
-    - m_guid: 66b5a33b05a2e2b4684ba3b3fffd39b0
-      m_address: Assets/Data/Scenes/Menus
+    - m_guid: 63dfbd3cdd2dd4277a9da7956731c39e
+      m_address: Assets/Info/Config
       m_readOnly: 0
-      m_serializedLabels:
-      - menu
-    - m_guid: 253408d056d53824a955aaf2f22d5fa7
-      m_address: Assets/Data/Scenes/Stages
+      m_serializedLabels: []
+    - m_guid: 87244a5d03fab7e43b2f3663cb1861b1
+      m_address: Assets/Info/Options
       m_readOnly: 0
-      m_serializedLabels:
-      - stage
-    - m_guid: d1e640dea56ac4d439074ecd5f165cfd
-      m_address: Assets/Data/Characters
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Characters/Common
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 0c970d076adb1db47aeb8b4f063791ab
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 70c567f44c231184d87f4483cfe45e47
+      m_address: Assets/Data/Characters/Shared/Shield.mat
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 77b155b0469bfac488a09646c165309a
+      m_address: Assets/Data/Characters/Shared/shield.tif
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: cd5e1226335244ddf86161487a8f55c9
+      m_address: Assets/Data/Characters/Shared/Shield.prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Character/000_Debug
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 82f104a1dd6ac374db85ef5259c17abd
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: a5f1dc41b623efa469a1c75ead4f5b2a
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: e89acb95de96c3f4da9059c1806e9c05
+      m_address: Info
       m_readOnly: 0
       m_serializedLabels:
       - character
-    processor: {fileID: 11400000, guid: 09a5d6063e72d6b438b7441ff1861062, type: 2}
-    isDefault: 1
-    readOnly: 0
+    m_readOnly: 0
+  - m_name: Characters/001_Marisa
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 52177489f7d351b4fbda0c79ed837298
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 082733759d540bd4a94fc9ca4ae2c2dd
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 55cda8d2eaa1c4be8b4cb8d136a6a981
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    - m_guid: 85ce47c49655a8e40b74a0dab14ebf67
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: e97fbc5a9fa4cbc48b126aa0baa68f72
+      m_address: Materials
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: eb1e6fb7092812d4b90ab06dd4ed8805
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Characters/002_Reimu
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 86cc882042fb44646b7247a9dab56aab
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 1204c6cc9d52cdf49b2518bc015b3b1a
+      m_address: Materials
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 12e991e4512d4bb4b86d6b8044eebac9
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 13529f42918524dc4a0e68fd17ac4236
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 5e880f14252814f4fa2087507048cb7a
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    - m_guid: 8c2c27cc47cdfb74ba1c43d897c13f08
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Characters/003_Wriggle
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 3e9ad2dd3e32aaf43841ebc0d353d22b
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 7df92bb30a4f0504586526d3173083af
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 92835b23f42164713aace3b4869d11fe
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 995d1afc8c30d1e4ebe2c2e6d8adb861
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: eced8acc9876143699a398b6b82408b0
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    m_readOnly: 0
+  - m_name: Characters/004_Youmu
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 75e4bdb06384d474cb5b165f7403ae03
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 1edc8c82bdc999843819716f41e225aa
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 2c87d5b6763a3ba46986ae9889c70aea
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    - m_guid: 62d68b0e9be29ea44aaa23a3b1ad00ef
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 75c9f3afc507e4943845ffcab2b3fa07
+      m_address: Materials
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 7f2b5bd4573318b40a8f65fb79824228
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: e650fcca55f08374f8774b36172210e1
+      m_address: Myon
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Characters/005_Sakuya
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: df512e59c0b36e343af550c7c7bb03a7
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 472bc60fa339f9d45b63f4386d4b9eff
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 8307ba3f983b4204f928c16c255e9e57
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 89547a4ac66cdbf48a7d72ba896eb38e
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    - m_guid: f45398a8ed80bee41b4432d4895cb18d
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Characters/006_Yuuka
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 54b70194af5d5f14b8620fd69d65f61d
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 035ef780643717040a6c4266bc5cf3df
+      m_address: Portaits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 221d64b60426798499fed0dc2346242f
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: d5e591e73e371c94eaead06a769c126a
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: f08a2c10748552544a53c59f8d1fbd50
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    m_readOnly: 0
+  - m_name: Characters/007_Yuugi
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 107eb539834afc44f84891cf86cab11e
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 819c95092a4759c40bb36239a1481b4b
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 8226612046010b3469fd1893d4f106a6
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: b17d74abaa7628844a050c266dade66a
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    - m_guid: fa54f9d6ec1777d46bd04770b250df37
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Characters/008_Murasa
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: e3fabcb208620974d97531a2e75909eb
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 49a2a05178548c748829fbd225011028
+      m_address: Portraits
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 4ec83fdbfc5652f4ea516e392a98f0d9
+      m_address: Prefab
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: a1027471e73273640ad9f789ccb55058
+      m_address: Icon
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: c9c85a5e50b3c76498befb0b12b188ac
+      m_address: Info
+      m_readOnly: 0
+      m_serializedLabels:
+      - character
+    m_readOnly: 0
+  - m_name: Stages/Bootstrap
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 9d94704b4a2866746aeb55ed8d649554
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: a0d981819a38842caa4b6f7c919c0452
+      m_address: StageBootstrap
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/000_Debug
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 71886962fda995b4fbb5de4ed68135a1
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 3c93374069ffbc54783494484b9276d9
+      m_address: Assets/Data/Scenes/Stages/000_Debug/DebugStage.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 6b725c909f12fc64f9108422a7b8a0a6
+      m_address: Assets/Data/Scenes/Stages/000_Debug/DebugStage.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/001_ForestOfMagic
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: b319d0c635d12b243b232eaadd414d1f
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 3a6d261325439c549a8ea97c878e0b69
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/ForestOfMagic.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 46cf3ac267341194fb3f74770824f0de
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/Music
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: af7fe850479b5db4084063cd758f3e05
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/ForestOfMagic.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/002_HakureiShrine
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 35591b02bf697e840b16b54ab494b7fb
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 7a1d3fdcc6ce4554389aa7ef959f1d5f
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/HakureiShrine.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 9d7acf7eda72f984aa955015999cf66b
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/HakureiShrine.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: fb516ead462a654489e9391fb11d7073
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/Music
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/003_Netherworld
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: b99e5b3bf30831e42a46885d650b628f
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 465a2e36e9ce4d04b87c28e8263c660c
+      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Music
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 6224ceb15e489e64e868f674dd925830
+      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Netherworld.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 991f6c51973167948a2c4b9b460948b1
+      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Netherworld.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/004_Makai
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 0f83c31543be53d44b98af70e20430c3
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 1a84bcc5375ff034699c02996d02bef2
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Makai.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: e683bbef61dbcc14b9a1fc5139ce6275
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Makai.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: ea07ada32ba758347960a40a945caafd
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Music
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/005_PalaquinShip
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 883e6b1963d15884f8f4c48e856b5018
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: b7e20f2acef72ad44b4c1ac3944a64b6
+      m_address: Assets/Data/Scenes/Stages/005_PalaquinShip/PalaquinShip.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: ddda9688b0cc33d4780de52f17f43a6e
+      m_address: Assets/Data/Scenes/Stages/005_PalaquinShip/PalaquinShip.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: e60c89caabc61e24dab571227202cc79
+      m_address: Assets/Data/Scenes/Stages/005_PalaquinShip/Music
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: Stages/006_ScarletDevilMansion
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 90ca3519e2df2804d81d40005121426d
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 33fc6222b735c99448a116796f2e00fc
+      m_address: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/ScarletDevilMansion.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 4580ce3accb761c4283ad97ed51cd2a3
+      m_address: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/ScarletDevilMansion.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 58a1fd6f212e1584b9b434491207bea5
+      m_address: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/Music
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: MainMenu
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 44dea383fda1b8c41b31f5571cd0fc2b
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: 31aebd4c2791e654bb7624d8640f92ce
+      m_address: Assets/Data/Scenes/Menus/MainMenu/MainMenu.asset
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: ad622db6dc44d44489350cd8cc24f23f
+      m_address: Assets/Data/Scenes/Menus/MainMenu/BGM
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: da1c90b397c2bfc4d9fb342dd396198f
+      m_address: Assets/Data/Scenes/Menus/MainMenu/MainMenu.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
+  - m_name: MatchEnd
+    m_data:
+      m_serializedData:
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: c90919c09381c924ead427ac399633f6
+        m_key: BuildPath
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.String
+        m_data: 558a7d48b81d2484393ff333cd4f6672
+        m_key: LoadPath
+      - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_className: UnityEditor.AddressableAssets.BundledAssetGroupProcessor+BundleMode
+        m_data: PackTogether
+        m_key: BundleMode
+      - m_assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        m_className: System.Int32
+        m_data: 0
+        m_key: Priority
+    m_guid: 1667d493f146e1c4b8637c2dfb899c54
+    m_processorAssembly: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
+    m_serializeEntries:
+    - m_guid: f649de709cb070b478cb473e7e0d0fd4
+      m_address: Assets/Data/Scenes/Menus/MatchEnd.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    m_readOnly: 0
   m_buildSettings:
     m_compression:
       compression: 3
@@ -58,47 +867,47 @@ MonoBehaviour:
   m_profileSettings:
     m_profiles:
     - m_inheritedParent: 
-      m_id: 5caa22fce45e4d84d820bd84b3585aed
+      m_id: 36a2d525dad3e30459583d885a09aed6
       m_profileName: Default
       m_values:
-      - m_id: babc002b04d0fd245aa81f818478f7c1
-        m_value: Assets/StreamingAssets
-      - m_id: ab78aa9a0be02824abfe5e4a79345e48
-        m_value: '{UnityEngine.Application.streamingAssetsPath}'
-      - m_id: f0d42d7dff305d0468a0cb51648196ab
-        m_value: ServerData/[UnityEditor.EditorUserBuildSettings.activeBuildTarget]
-      - m_id: b5914f5fb13d2e441bb76ec95f90ba64
-        m_value: http://localhost/[UnityEditor.EditorUserBuildSettings.activeBuildTarget]
-      - m_id: 39f807e91b2c2544dae972c91a0e88ff
+      - m_id: fcf7c1521920205439a33c4043291268
         m_value: 1
-      - m_id: 20bb7316565a9c84f9fb357b0691cbe2
+      - m_id: db97a97fe99c3054eacea08bf07fde9e
         m_value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_id: c90919c09381c924ead427ac399633f6
+        m_value: Assets/StreamingAssets/com.unity.addressables/[BuildTarget]
+      - m_id: 558a7d48b81d2484393ff333cd4f6672
+        m_value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_id: e83d61183c7db454786f232344b3e982
+        m_value: ServerData/[BuildTarget]
+      - m_id: 4fa7d27a48fed4b44a7fdef0c776654b
+        m_value: http://localhost/[BuildTarget]
     m_profileEntryNames:
-    - id: 0ce9f193281c461479dd142c0bbe2df9
-      name: <custom>
-      inlineUsage: 1
-    - id: babc002b04d0fd245aa81f818478f7c1
-      name: LocalBuildPath
-      inlineUsage: 0
-    - id: ab78aa9a0be02824abfe5e4a79345e48
-      name: LocalLoadPrefix
-      inlineUsage: 0
-    - id: f0d42d7dff305d0468a0cb51648196ab
-      name: RemoteBuildPath
-      inlineUsage: 0
-    - id: b5914f5fb13d2e441bb76ec95f90ba64
-      name: RemoteLoadPrefix
-      inlineUsage: 0
-    - id: 39f807e91b2c2544dae972c91a0e88ff
-      name: ContentVersion
-      inlineUsage: 0
-    - id: 20bb7316565a9c84f9fb357b0691cbe2
-      name: BuildTarget
-      inlineUsage: 0
+    - m_id: 675700539a294944989f36cd230f39b0
+      m_name: <custom>
+      m_inlineUsage: 1
+    - m_id: fcf7c1521920205439a33c4043291268
+      m_name: ContentVersion
+      m_inlineUsage: 0
+    - m_id: db97a97fe99c3054eacea08bf07fde9e
+      m_name: BuildTarget
+      m_inlineUsage: 0
+    - m_id: c90919c09381c924ead427ac399633f6
+      m_name: LocalBuildPath
+      m_inlineUsage: 0
+    - m_id: 558a7d48b81d2484393ff333cd4f6672
+      m_name: LocalLoadPath
+      m_inlineUsage: 0
+    - m_id: e83d61183c7db454786f232344b3e982
+      m_name: RemoteBuildPath
+      m_inlineUsage: 0
+    - m_id: 4fa7d27a48fed4b44a7fdef0c776654b
+      m_name: RemoteLoadPath
+      m_inlineUsage: 0
   m_labelTable:
     m_labelNames:
     - default
     - character
     - stage
     - menu
-  m_activeProfileId: 5caa22fce45e4d84d820bd84b3585aed
+  m_activeProfileId: 36a2d525dad3e30459583d885a09aed6
