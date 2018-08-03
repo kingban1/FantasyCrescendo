@@ -2,17 +2,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AddressableAssets;
 using TMPro;
 
-namespace HouraiTeahouse {
+namespace HouraiTeahouse.FantasyCrescendo {
     
 public class OptionsUIBuilder : MonoBehaviour {
 
   public List<Option> Options;
-  public bool LoadFromResources;
+  public AssetLabelReference OptionLabel;
 
   [Range(0f, 1f)] public float LabelWidth = 0.3f;
   [Range(0f, 1f)] public float HorizontalPadding = 0.05f;
@@ -51,11 +53,9 @@ public class OptionsUIBuilder : MonoBehaviour {
   /// <summary>
   /// Awake is called when the script instance is being loaded.
   /// </summary>
-  void Awake() {
+  async void Awake() {
     TabDisplays = new List<GameObject>();
-    if (LoadFromResources) {
-      LoadOptionsFromResources();
-    }
+    await LoadOptions();
     if (!Debug.isDebugBuild) {
       RemoveDebugOptions();
     }
@@ -253,8 +253,10 @@ public class OptionsUIBuilder : MonoBehaviour {
     TabDisplays.Add(groupContainer.gameObject);
   }
 
-  void LoadOptionsFromResources() {
-    Options.AddRange(Resources.LoadAll<Option>(string.Empty));
+  async Task LoadOptions() {
+    var result = await Addressables.LoadAssets<Option>(OptionLabel.labelString, null).ToTask();
+    if (result == null) return;
+    Options.AddRange(result);
   }
 
   void RemoveDebugOptions() {

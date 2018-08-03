@@ -147,7 +147,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1996456345168662}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -362,9 +362,10 @@ MonoBehaviour:
   GameModes:
   - {fileID: 11400000, guid: ce1f27b7856194045a3e3c7c1a9fae24, type: 2}
   - {fileID: 11400000, guid: 911d2a37d116762439b0925e8d2122e2, type: 2}
-  BundleSearch:
-  - scene/*/info
-  - characters/*/info
+  CharacterLabels:
+  - m_labelString: character
+  SceneLabels:
+  - m_labelString: scene
 --- !u!114 &114432504162126714
 MonoBehaviour:
   m_ObjectHideFlags: 1

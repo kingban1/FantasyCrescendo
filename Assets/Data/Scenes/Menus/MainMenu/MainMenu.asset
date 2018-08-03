@@ -18,14 +18,14 @@ MonoBehaviour:
   Type: 0
   Name: Main Menu
   Scene:
-    assetGUID: da1c90b397c2bfc4d9fb342dd396198f
-    _cachedAsset: {fileID: 102900000, guid: da1c90b397c2bfc4d9fb342dd396198f, type: 3}
+    m_assetGUID: da1c90b397c2bfc4d9fb342dd396198f
+    m_cachedAsset: {fileID: 102900000, guid: da1c90b397c2bfc4d9fb342dd396198f, type: 3}
   Icon:
-    assetGUID: 
-    _cachedAsset: {fileID: 0}
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
   PreviewImage:
-    assetGUID: 
-    _cachedAsset: {fileID: 0}
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
   LoadPriority: 0
   Music:
   - {fileID: 11400000, guid: 89b14f26127485c46bc7173adacf672b, type: 2}

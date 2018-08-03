@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -17,14 +17,43 @@ MonoBehaviour:
   IsDebug: 0
   ShortName: Yuugi
   LongName: Yuugi Hoshiguma
-  _prefab: 
-  _homeStage: 
-  _victoryTheme: 
-  _icon: icons:yuugi_icon
-  _portraits:
-  - characters/yuugi/portraits:yuugi_portrait_1
-  - characters/yuugi/portraits:yuugi_portrait_2
-  - characters/yuugi/portraits:yuugi_portrait_3
-  - characters/yuugi/portraits:yuugi_portrait_4
+  HomeStage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  VictoryTheme:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  Icon:
+    m_assetGUID: 8226612046010b3469fd1893d4f106a6
+    m_cachedAsset: {fileID: 2800000, guid: 8226612046010b3469fd1893d4f106a6, type: 3}
+  Palletes:
+  - Portrait:
+      m_assetGUID: 71c2cb04c59ab15449f94f3b4f35d4a3
+      m_cachedAsset: {fileID: 2800000, guid: 71c2cb04c59ab15449f94f3b4f35d4a3, type: 3}
+    Prefab:
+      m_assetGUID: fa54f9d6ec1777d46bd04770b250df37
+      m_cachedAsset: {fileID: 1872841189430122, guid: fa54f9d6ec1777d46bd04770b250df37,
+        type: 2}
+  - Portrait:
+      m_assetGUID: 933b1cc324d3af5449f430966a98936d
+      m_cachedAsset: {fileID: 2800000, guid: 933b1cc324d3af5449f430966a98936d, type: 3}
+    Prefab:
+      m_assetGUID: fa54f9d6ec1777d46bd04770b250df37
+      m_cachedAsset: {fileID: 1872841189430122, guid: fa54f9d6ec1777d46bd04770b250df37,
+        type: 2}
+  - Portrait:
+      m_assetGUID: aa2daeca6566f7943be8199b5f9fc22f
+      m_cachedAsset: {fileID: 2800000, guid: aa2daeca6566f7943be8199b5f9fc22f, type: 3}
+    Prefab:
+      m_assetGUID: fa54f9d6ec1777d46bd04770b250df37
+      m_cachedAsset: {fileID: 1872841189430122, guid: fa54f9d6ec1777d46bd04770b250df37,
+        type: 2}
+  - Portrait:
+      m_assetGUID: ff9d92580a898654a8ac0d16c95d7a7a
+      m_cachedAsset: {fileID: 2800000, guid: ff9d92580a898654a8ac0d16c95d7a7a, type: 3}
+    Prefab:
+      m_assetGUID: fa54f9d6ec1777d46bd04770b250df37
+      m_cachedAsset: {fileID: 1872841189430122, guid: fa54f9d6ec1777d46bd04770b250df37,
+        type: 2}
   PortraitCropCenter: {x: 0.5, y: 0.8}
   PortraitCropSize: 0.22

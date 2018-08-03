@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b065f1d67cd3b4883ff7bd69022f36, type: 3}
   m_Name: Legendary Illusion (Sylvy)
   m_EditorClassIdentifier: 
-  _audioClip: bgm/makai:Legendary Illusion (Sylvy)
+  Clip:
+    m_assetGUID: 2af05e6f5b0bc064c8d5a449e26976aa
+    m_cachedAsset: {fileID: 8300000, guid: 2af05e6f5b0bc064c8d5a449e26976aa, type: 3}
   Author: 
   Original: 
   DefaultWeight: 1

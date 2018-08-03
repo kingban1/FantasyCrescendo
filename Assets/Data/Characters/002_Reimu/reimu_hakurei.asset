@@ -17,39 +17,43 @@ MonoBehaviour:
   IsDebug: 0
   ShortName: Reimu
   LongName: Reimu Hakurei
-  _prefab: 
-  _homeStage: 
-  _victoryTheme: 
-  _icon: icons:reimu_icon
+  HomeStage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  VictoryTheme:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  Icon:
+    m_assetGUID: 8c2c27cc47cdfb74ba1c43d897c13f08
+    m_cachedAsset: {fileID: 2800000, guid: 8c2c27cc47cdfb74ba1c43d897c13f08, type: 3}
   Palletes:
   - Portrait:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 2578330239846ca41b01f07904e19585
+      m_cachedAsset: {fileID: 2800000, guid: 2578330239846ca41b01f07904e19585, type: 3}
     Prefab:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 13529f42918524dc4a0e68fd17ac4236
+      m_cachedAsset: {fileID: 1944604629345472, guid: 13529f42918524dc4a0e68fd17ac4236,
+        type: 2}
   - Portrait:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 681fb90d1a77cf24eadbcd7cb76dafac
+      m_cachedAsset: {fileID: 2800000, guid: 681fb90d1a77cf24eadbcd7cb76dafac, type: 3}
     Prefab:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 13529f42918524dc4a0e68fd17ac4236
+      m_cachedAsset: {fileID: 1944604629345472, guid: 13529f42918524dc4a0e68fd17ac4236,
+        type: 2}
   - Portrait:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 422d30cbbe407d94ba3e8dd1e3289c0e
+      m_cachedAsset: {fileID: 2800000, guid: 422d30cbbe407d94ba3e8dd1e3289c0e, type: 3}
     Prefab:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 13529f42918524dc4a0e68fd17ac4236
+      m_cachedAsset: {fileID: 1944604629345472, guid: 13529f42918524dc4a0e68fd17ac4236,
+        type: 2}
   - Portrait:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
+      m_assetGUID: 4ecef61625f10774e8d0f066d3062fd9
+      m_cachedAsset: {fileID: 2800000, guid: 4ecef61625f10774e8d0f066d3062fd9, type: 3}
     Prefab:
-      assetGUID: 
-      _cachedAsset: {fileID: 0}
-  _portraits:
-  - characters/reimu/portraits:reimu_portrait_1
-  - characters/reimu/portraits:reimu_portrait_2
-  - characters/reimu/portraits:reimu_portrait_3
-  - characters/reimu/portraits:reimu_portrait_4
+      m_assetGUID: 13529f42918524dc4a0e68fd17ac4236
+      m_cachedAsset: {fileID: 1944604629345472, guid: 13529f42918524dc4a0e68fd17ac4236,
+        type: 2}
   PortraitCropCenter: {x: 0.5, y: 0.8}
   PortraitCropSize: 0.22

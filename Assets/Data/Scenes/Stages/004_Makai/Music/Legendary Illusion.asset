@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b065f1d67cd3b4883ff7bd69022f36, type: 3}
   m_Name: Legendary Illusion
   m_EditorClassIdentifier: 
-  _audioClip: bgm/makai:Legendary Illusion
+  Clip:
+    m_assetGUID: a4bc4521886594649ba4f8ee552c58cb
+    m_cachedAsset: {fileID: 8300000, guid: a4bc4521886594649ba4f8ee552c58cb, type: 3}
   Author: 
   Original: 
   DefaultWeight: 1

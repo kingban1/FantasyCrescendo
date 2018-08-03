@@ -681,7 +681,8 @@ MonoBehaviour:
   LoadOnAwake: 0
   Mode: 0
   _scenes:
-  - Assets/Data/Scenes/Base/GameBootstrap.unity
+  - m_assetGUID: 07c1323aedb3a5b43a8791bf343df61e
+    m_cachedAsset: {fileID: 102900000, guid: 07c1323aedb3a5b43a8791bf343df61e, type: 3}
 --- !u!114 &398397125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,7 +1611,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -998.5293, y: -100}
+  m_SizeDelta: {x: -693.421, y: -100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215880794
 MonoBehaviour:

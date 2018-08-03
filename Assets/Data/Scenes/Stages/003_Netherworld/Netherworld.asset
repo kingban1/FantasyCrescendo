@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -17,9 +17,15 @@ MonoBehaviour:
   IsDebug: 0
   Type: 1
   Name: Netherworld
-  _scene: scene/netherworld/scene:Assets/Data/Scenes/Stages/003_Netherworld/Netherworld.unity
-  _icon: icons:marisa_icon
-  _previewImage: icons:marisa_icon
+  Scene:
+    m_assetGUID: 6224ceb15e489e64e868f674dd925830
+    m_cachedAsset: {fileID: 102900000, guid: 6224ceb15e489e64e868f674dd925830, type: 3}
+  Icon:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  PreviewImage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
   LoadPriority: 0
   Music:
   - {fileID: 11400000, guid: 042bdef5bc24eda4cb2f4c7a1d76d9f3, type: 2}

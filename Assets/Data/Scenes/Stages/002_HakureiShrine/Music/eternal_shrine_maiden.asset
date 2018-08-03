@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b065f1d67cd3b4883ff7bd69022f36, type: 3}
   m_Name: eternal_shrine_maiden
   m_EditorClassIdentifier: 
-  _audioClip: bgm/shrine:Eternal Shrine Maiden
+  Clip:
+    m_assetGUID: 14eca92c2beef004fbf83d8a95425b85
+    m_cachedAsset: {fileID: 8300000, guid: 14eca92c2beef004fbf83d8a95425b85, type: 3}
   Author: 
   Original: 
   DefaultWeight: 0

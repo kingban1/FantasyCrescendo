@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b065f1d67cd3b4883ff7bd69022f36, type: 3}
   m_Name: Legend of KAGE
   m_EditorClassIdentifier: 
-  _audioClip: bgm/makai:Legend of KAGE
+  Clip:
+    m_assetGUID: 43b21429830138548bb1895056307d28
+    m_cachedAsset: {fileID: 8300000, guid: 43b21429830138548bb1895056307d28, type: 3}
   Author: 
   Original: 
   DefaultWeight: 1

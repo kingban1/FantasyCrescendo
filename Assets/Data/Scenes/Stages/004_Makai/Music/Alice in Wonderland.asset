@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b065f1d67cd3b4883ff7bd69022f36, type: 3}
   m_Name: Alice in Wonderland
   m_EditorClassIdentifier: 
-  _audioClip: bgm/makai:Alice in Wonderland
+  Clip:
+    m_assetGUID: f50676833500dec478608e3fd23648a3
+    m_cachedAsset: {fileID: 8300000, guid: f50676833500dec478608e3fd23648a3, type: 3}
   Author: 
   Original: 
   DefaultWeight: 1

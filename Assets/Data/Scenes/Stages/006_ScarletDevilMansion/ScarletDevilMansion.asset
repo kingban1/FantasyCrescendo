@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -15,7 +15,16 @@ MonoBehaviour:
   IsSelectable: 1
   IsVisible: 0
   IsDebug: 0
-  IsStage: 1
+  Type: 1
   Name: Scarlet Devil Mansion
-  _scene: 
+  Scene:
+    m_assetGUID: 4580ce3accb761c4283ad97ed51cd2a3
+    m_cachedAsset: {fileID: 102900000, guid: 4580ce3accb761c4283ad97ed51cd2a3, type: 3}
+  Icon:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  PreviewImage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  LoadPriority: 0
   Music: []

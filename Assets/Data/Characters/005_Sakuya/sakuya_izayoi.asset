@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -17,14 +17,43 @@ MonoBehaviour:
   IsDebug: 0
   ShortName: Sakuya
   LongName: Sakuya Izayoi
-  _prefab: 
-  _homeStage: 
-  _victoryTheme: 
-  _icon: icons:sakuya_icon
-  _portraits:
-  - characters/sakuya/portraits:sakuya_portrait_1
-  - characters/sakuya/portraits:sakuya_portrait_2
-  - characters/sakuya/portraits:sakuya_portrait_3
-  - characters/sakuya/portraits:sakuya_portrait_4
+  HomeStage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  VictoryTheme:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  Icon:
+    m_assetGUID: f45398a8ed80bee41b4432d4895cb18d
+    m_cachedAsset: {fileID: 2800000, guid: f45398a8ed80bee41b4432d4895cb18d, type: 3}
+  Palletes:
+  - Portrait:
+      m_assetGUID: dbfc01b93c5702341931efc372d8027b
+      m_cachedAsset: {fileID: 2800000, guid: dbfc01b93c5702341931efc372d8027b, type: 3}
+    Prefab:
+      m_assetGUID: 8307ba3f983b4204f928c16c255e9e57
+      m_cachedAsset: {fileID: 1872841189430122, guid: 8307ba3f983b4204f928c16c255e9e57,
+        type: 2}
+  - Portrait:
+      m_assetGUID: 8558cce18de1b744a8f0655ed8a4a683
+      m_cachedAsset: {fileID: 2800000, guid: 8558cce18de1b744a8f0655ed8a4a683, type: 3}
+    Prefab:
+      m_assetGUID: 8307ba3f983b4204f928c16c255e9e57
+      m_cachedAsset: {fileID: 1872841189430122, guid: 8307ba3f983b4204f928c16c255e9e57,
+        type: 2}
+  - Portrait:
+      m_assetGUID: 16d1f11948b7e244aa4bcbdca2d78fd7
+      m_cachedAsset: {fileID: 2800000, guid: 16d1f11948b7e244aa4bcbdca2d78fd7, type: 3}
+    Prefab:
+      m_assetGUID: 8307ba3f983b4204f928c16c255e9e57
+      m_cachedAsset: {fileID: 1872841189430122, guid: 8307ba3f983b4204f928c16c255e9e57,
+        type: 2}
+  - Portrait:
+      m_assetGUID: 879ac156e473ea645a7f9f91489c8ea6
+      m_cachedAsset: {fileID: 2800000, guid: 879ac156e473ea645a7f9f91489c8ea6, type: 3}
+    Prefab:
+      m_assetGUID: 8307ba3f983b4204f928c16c255e9e57
+      m_cachedAsset: {fileID: 1872841189430122, guid: 8307ba3f983b4204f928c16c255e9e57,
+        type: 2}
   PortraitCropCenter: {x: 0.5, y: 0.8}
   PortraitCropSize: 0.22

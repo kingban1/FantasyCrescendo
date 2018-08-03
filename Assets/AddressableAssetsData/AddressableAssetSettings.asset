@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_defaultGroup: 
+  m_defaultGroup: 735f2a20e8e840a498bbdb342d9d880a
   m_groups:
   - m_name: Built In Data
     m_data:
@@ -55,12 +55,229 @@ MonoBehaviour:
       PublicKeyToken=null
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
-    - m_guid: 63dfbd3cdd2dd4277a9da7956731c39e
-      m_address: Assets/Info/Config
+    - m_guid: 004c457c149de344ebd44f76f6fcb81a
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/Music/Forgathered Pandemonium
+        ~ World Collapse.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 07c1323aedb3a5b43a8791bf343df61e
+      m_address: Assets/Data/Scenes/Base/GameBootstrap.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 1096dcd85679e3642bed3a2224d0dfac
+      m_address: Assets/Data/Characters/001_Marisa/Portraits/marisa_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 12a0652144bb3d84cac19dfd4afc7534
+      m_address: Assets/Data/Characters/003_Wriggle/Portraits/wriggle_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 14eca92c2beef004fbf83d8a95425b85
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/Music/Eternal Shrine
+        Maiden.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 1543d2eb5d83d4d49a6320017e62a48f
+      m_address: Assets/Data/Characters/003_Wriggle/Portraits/wriggle_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 16d1f11948b7e244aa4bcbdca2d78fd7
+      m_address: Assets/Data/Characters/005_Sakuya/Portraits/sakuya_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 1804b2660a5853145981662154f935ab
+      m_address: Assets/Data/Scenes/Stages/999_Sandbox/SandboxStage.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 19194b4217a6e0f4ebb3dc2d97fb5fec
+      m_address: Assets/Data/Scenes/Menus/MainMenu/BGM/Did You See That Shadow.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 1d3d49a89856ca145ab2bf8f04925b91
+      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Music/Bloom_Nobly_Ink-Black_Cherry_Blossoms.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 2578330239846ca41b01f07904e19585
+      m_address: Assets/Data/Characters/002_Reimu/Portraits/reimu_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 2a25524599be084408e17cfa4db64929
+      m_address: Assets/Data/Characters/006_Yuuka/Portaits/yuuka_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 2af05e6f5b0bc064c8d5a449e26976aa
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Music/Legendary Illusion (Sylvy).ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 34f53487d5f67004d85ed3f6e6275256
+      m_address: Assets/Data/Scenes/Base/ErrorDisplay.unity
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 3b7e896782efa4a4aa41506dfb3bb89f
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/Music/Battle Concerto.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 3e7d3018e03cf304db0e9d9098c6d44c
+      m_address: Assets/Data/Characters/004_Youmu/Portraits/youmu_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 3fbab79d56dbeb6478737dc6c6afc0b2
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/Music/Love Colored Magic.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 422d30cbbe407d94ba3e8dd1e3289c0e
+      m_address: Assets/Data/Characters/002_Reimu/Portraits/reimu_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 43b21429830138548bb1895056307d28
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Music/Legend of KAGE.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 4801d1b4bdb60034a90f39b646aea281
+      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/Music/Dichromatic Lotus
+        Butterfly.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 4ecef61625f10774e8d0f066d3062fd9
+      m_address: Assets/Data/Characters/002_Reimu/Portraits/reimu_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 50442d71d0af4bd4680b6c2518f39c95
+      m_address: Assets/Data/Characters/003_Wriggle/Portraits/wriggle_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 5070d1e84bc1e8744ae03348b9febb79
+      m_address: Assets/Data/Characters/008_Murasa/Portraits/murasa_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 546b989a41f2a714593cfda8a63fd301
+      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Music/Mary_the_Magician.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 5e4efdf01c4da32448097f4ec6bd6852
+      m_address: Assets/Data/Characters/004_Youmu/Portraits/youmu_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 6736f305d683dac408bdcbe49c8d31c1
+      m_address: Assets/Data/Characters/008_Murasa/Portraits/murasa_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 681fb90d1a77cf24eadbcd7cb76dafac
+      m_address: Assets/Data/Characters/002_Reimu/Portraits/reimu_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 6cbaca2731accf34b9ad7227f4562b29
+      m_address: Assets/Data/Scenes/Menus/MainMenu/BGM/Shinkirou Orchestra.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 71c2cb04c59ab15449f94f3b4f35d4a3
+      m_address: Assets/Data/Characters/007_Yuugi/Portraits/yuugi_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 77ab5eec8917b5842bd85479054e8b7d
+      m_address: Assets/Data/Characters/004_Youmu/Portraits/youmu_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 848af35f89c07c048b24e24ff8cbc4a7
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/Music/Doll Judgement.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 8558cce18de1b744a8f0655ed8a4a683
+      m_address: Assets/Data/Characters/005_Sakuya/Portraits/sakuya_portrait_2.png
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 87244a5d03fab7e43b2f3663cb1861b1
-      m_address: Assets/Info/Options
+      m_address: Options
+      m_readOnly: 0
+      m_serializedLabels:
+      - options
+    - m_guid: 879ac156e473ea645a7f9f91489c8ea6
+      m_address: Assets/Data/Characters/005_Sakuya/Portraits/sakuya_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 933b1cc324d3af5449f430966a98936d
+      m_address: Assets/Data/Characters/007_Yuugi/Portraits/yuugi_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 9432ea51c4b5fcd4b83b748bc92cd781
+      m_address: Assets/Data/Characters/001_Marisa/Portraits/marisa_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 99cc22d4b175d43499a54ed4ea3bb676
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/Music/Magus Night.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 9bc4cf0538f1fc8448c63cceeec8ea8b
+      m_address: Assets/Data/Characters/006_Yuuka/Portaits/yuuka_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 9ff3b1721e754b344ad07d429246513c
+      m_address: Assets/Data/Characters/006_Yuuka/Portaits/yuuka_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: a44678091daad23459c4a01c2be02741
+      m_address: Assets/Data/Characters/001_Marisa/Portraits/marisa_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: a4bc4521886594649ba4f8ee552c58cb
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Music/Legendary Illusion.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: a60dca073c7c01d4784836d739088af1
+      m_address: Assets/Data/Scenes/Menus/MainMenu/BGM/Selection.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: aa2daeca6566f7943be8199b5f9fc22f
+      m_address: Assets/Data/Characters/007_Yuugi/Portraits/yuugi_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: ab0717136d1ef844a9e1b2b4d22f745c
+      m_address: Assets/Data/Characters/003_Wriggle/Portraits/wriggle_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: b6b5a580d58afa54c9b87fe4d8475a75
+      m_address: Assets/Data/Characters/004_Youmu/Portraits/youmu_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: c24175da64e4c30459a9b1dd6ef0caf7
+      m_address: Assets/Data/Scenes/Menus/MainMenu/BGM/Memory of Forgathering Dream.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: c26883856c0773046a7278e067d21df2
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Music/Now, Until The Moment You
+        Die.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: c5781415cb191ec4ab02b4c9c24828ac
+      m_address: Assets/Data/Characters/008_Murasa/Portraits/murasa_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: dbfc01b93c5702341931efc372d8027b
+      m_address: Assets/Data/Characters/005_Sakuya/Portraits/sakuya_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: e54a17584c8c96646996a3e0fdc5f696
+      m_address: Assets/Data/Characters/001_Marisa/Portraits/marisa_portrait_3.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: efcec1ef8dceefe4186dc06e3d730ac4
+      m_address: Assets/Data/Characters/008_Murasa/Portraits/murasa_portrait_2.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: f190d62cf51254144b0ae884acda60cb
+      m_address: Assets/Data/Characters/006_Yuuka/Portaits/yuuka_portrait_1.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: f50676833500dec478608e3fd23648a3
+      m_address: Assets/Data/Scenes/Stages/004_Makai/Music/Alice in Wonderland.ogg
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: ff9d92580a898654a8ac0d16c95d7a7a
+      m_address: Assets/Data/Characters/007_Yuugi/Portraits/yuugi_portrait_4.png
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: fff488d82325ecd48bd37066be8a0a1f
+      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/Music/Ghostly Eyes.ogg
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -128,11 +345,11 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: a5f1dc41b623efa469a1c75ead4f5b2a
-      m_address: Prefab
+      m_address: prefab_debug
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: e89acb95de96c3f4da9059c1806e9c05
-      m_address: Info
+      m_address: info_debug
       m_readOnly: 0
       m_serializedLabels:
       - character
@@ -163,24 +380,24 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 082733759d540bd4a94fc9ca4ae2c2dd
-      m_address: Icon
+      m_address: icon_marisa
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 55cda8d2eaa1c4be8b4cb8d136a6a981
-      m_address: Info
+      m_address: info_marisa
       m_readOnly: 0
       m_serializedLabels:
       - character
     - m_guid: 85ce47c49655a8e40b74a0dab14ebf67
-      m_address: Prefab
+      m_address: prefab_marisa
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: e97fbc5a9fa4cbc48b126aa0baa68f72
-      m_address: Materials
+      m_address: materials_marisa
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: eb1e6fb7092812d4b90ab06dd4ed8805
-      m_address: Portraits
+      m_address: portraits_marisa
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -210,24 +427,24 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 1204c6cc9d52cdf49b2518bc015b3b1a
-      m_address: Materials
+      m_address: materials_reimu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 12e991e4512d4bb4b86d6b8044eebac9
-      m_address: Portraits
+      m_address: portraits_reimu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 13529f42918524dc4a0e68fd17ac4236
-      m_address: Prefab
+      m_address: prefab_reimu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 5e880f14252814f4fa2087507048cb7a
-      m_address: Info
+      m_address: info_reimu
       m_readOnly: 0
       m_serializedLabels:
       - character
     - m_guid: 8c2c27cc47cdfb74ba1c43d897c13f08
-      m_address: Icon
+      m_address: icon_reimu
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -257,19 +474,19 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 7df92bb30a4f0504586526d3173083af
-      m_address: Portraits
+      m_address: portraits_wriggle
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 92835b23f42164713aace3b4869d11fe
-      m_address: Prefab
+      m_address: prefab_wriggle
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 995d1afc8c30d1e4ebe2c2e6d8adb861
-      m_address: Icon
+      m_address: icon_wriggle
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: eced8acc9876143699a398b6b82408b0
-      m_address: Info
+      m_address: info_wriggle
       m_readOnly: 0
       m_serializedLabels:
       - character
@@ -300,28 +517,28 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 1edc8c82bdc999843819716f41e225aa
-      m_address: Icon
+      m_address: icon_youmu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 2c87d5b6763a3ba46986ae9889c70aea
-      m_address: Info
+      m_address: info_youmu
       m_readOnly: 0
       m_serializedLabels:
       - character
     - m_guid: 62d68b0e9be29ea44aaa23a3b1ad00ef
-      m_address: Portraits
+      m_address: portraits_youmu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 75c9f3afc507e4943845ffcab2b3fa07
-      m_address: Materials
+      m_address: materials_youmu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 7f2b5bd4573318b40a8f65fb79824228
-      m_address: Prefab
+      m_address: prefab_youmu
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: e650fcca55f08374f8774b36172210e1
-      m_address: Myon
+      m_address: myon_youmu
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -351,20 +568,20 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 472bc60fa339f9d45b63f4386d4b9eff
-      m_address: Portraits
+      m_address: portraits_sakuya
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 8307ba3f983b4204f928c16c255e9e57
-      m_address: Prefab
+      m_address: prefab_sakuya
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 89547a4ac66cdbf48a7d72ba896eb38e
-      m_address: Info
+      m_address: info_sakuya
       m_readOnly: 0
       m_serializedLabels:
       - character
     - m_guid: f45398a8ed80bee41b4432d4895cb18d
-      m_address: Icon
+      m_address: icon_sakuya
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -394,19 +611,19 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 035ef780643717040a6c4266bc5cf3df
-      m_address: Portaits
+      m_address: portraits_yuuka
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 221d64b60426798499fed0dc2346242f
-      m_address: Prefab
+      m_address: prefab_yuuka
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: d5e591e73e371c94eaead06a769c126a
-      m_address: Icon
+      m_address: icon_yuuka
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: f08a2c10748552544a53c59f8d1fbd50
-      m_address: Info
+      m_address: info_yuuka
       m_readOnly: 0
       m_serializedLabels:
       - character
@@ -437,20 +654,20 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 819c95092a4759c40bb36239a1481b4b
-      m_address: Portraits
+      m_address: portraits_yuugi
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 8226612046010b3469fd1893d4f106a6
-      m_address: Icon
+      m_address: icon_yuugi
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: b17d74abaa7628844a050c266dade66a
-      m_address: Info
+      m_address: info_yuugi
       m_readOnly: 0
       m_serializedLabels:
       - character
     - m_guid: fa54f9d6ec1777d46bd04770b250df37
-      m_address: Prefab
+      m_address: prefab_yuugi
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -480,19 +697,19 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 49a2a05178548c748829fbd225011028
-      m_address: Portraits
+      m_address: portraits_murasa
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 4ec83fdbfc5652f4ea516e392a98f0d9
-      m_address: Prefab
+      m_address: prefab_murasa
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: a1027471e73273640ad9f789ccb55058
-      m_address: Icon
+      m_address: icon_murasa
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: c9c85a5e50b3c76498befb0b12b188ac
-      m_address: Info
+      m_address: info_murasa
       m_readOnly: 0
       m_serializedLabels:
       - character
@@ -553,13 +770,14 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 3c93374069ffbc54783494484b9276d9
-      m_address: Assets/Data/Scenes/Stages/000_Debug/DebugStage.unity
+      m_address: DebugStage
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 6b725c909f12fc64f9108422a7b8a0a6
-      m_address: Assets/Data/Scenes/Stages/000_Debug/DebugStage.asset
+      m_address: stage_debug
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     m_readOnly: 0
   - m_name: Stages/001_ForestOfMagic
     m_data:
@@ -587,15 +805,16 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 3a6d261325439c549a8ea97c878e0b69
-      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/ForestOfMagic.asset
+      m_address: stage_ForestOfMagic
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     - m_guid: 46cf3ac267341194fb3f74770824f0de
-      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/Music
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: af7fe850479b5db4084063cd758f3e05
-      m_address: Assets/Data/Scenes/Stages/001_ForestOfMagic/ForestOfMagic.unity
+      m_address: ForestOfMagic
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -625,15 +844,16 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 7a1d3fdcc6ce4554389aa7ef959f1d5f
-      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/HakureiShrine.unity
+      m_address: HakureiShrine
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 9d7acf7eda72f984aa955015999cf66b
-      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/HakureiShrine.asset
+      m_address: stage_HakureiShrine
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     - m_guid: fb516ead462a654489e9391fb11d7073
-      m_address: Assets/Data/Scenes/Stages/002_HakureiShrine/Music
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -663,17 +883,18 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 465a2e36e9ce4d04b87c28e8263c660c
-      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Music
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 6224ceb15e489e64e868f674dd925830
-      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Netherworld.unity
+      m_address: Netherworld
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 991f6c51973167948a2c4b9b460948b1
-      m_address: Assets/Data/Scenes/Stages/003_Netherworld/Netherworld.asset
+      m_address: stage_Netherworld
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     m_readOnly: 0
   - m_name: Stages/004_Makai
     m_data:
@@ -701,15 +922,16 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 1a84bcc5375ff034699c02996d02bef2
-      m_address: Assets/Data/Scenes/Stages/004_Makai/Makai.unity
+      m_address: Makai
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: e683bbef61dbcc14b9a1fc5139ce6275
-      m_address: Assets/Data/Scenes/Stages/004_Makai/Makai.asset
+      m_address: stage_Makai
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     - m_guid: ea07ada32ba758347960a40a945caafd
-      m_address: Assets/Data/Scenes/Stages/004_Makai/Music
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -739,15 +961,16 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: b7e20f2acef72ad44b4c1ac3944a64b6
-      m_address: Assets/Data/Scenes/Stages/005_PalaquinShip/PalaquinShip.unity
+      m_address: PalaquinShip
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: ddda9688b0cc33d4780de52f17f43a6e
-      m_address: Assets/Data/Scenes/Stages/005_PalaquinShip/PalaquinShip.asset
+      m_address: stage_PalaquinShip
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     - m_guid: e60c89caabc61e24dab571227202cc79
-      m_address: Assets/Data/Scenes/Stages/005_PalaquinShip/Music
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -777,15 +1000,16 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 33fc6222b735c99448a116796f2e00fc
-      m_address: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/ScarletDevilMansion.asset
+      m_address: stage_ScarletDevilMansion
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     - m_guid: 4580ce3accb761c4283ad97ed51cd2a3
-      m_address: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/ScarletDevilMansion.unity
+      m_address: ScarletDevilMansion
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: 58a1fd6f212e1584b9b434491207bea5
-      m_address: Assets/Data/Scenes/Stages/006_ScarletDevilMansion/Music
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -815,15 +1039,16 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: 31aebd4c2791e654bb7624d8640f92ce
-      m_address: Assets/Data/Scenes/Menus/MainMenu/MainMenu.asset
+      m_address: menu_MainMenu
       m_readOnly: 0
-      m_serializedLabels: []
+      m_serializedLabels:
+      - scene
     - m_guid: ad622db6dc44d44489350cd8cc24f23f
-      m_address: Assets/Data/Scenes/Menus/MainMenu/BGM
+      m_address: Music
       m_readOnly: 0
       m_serializedLabels: []
     - m_guid: da1c90b397c2bfc4d9fb342dd396198f
-      m_address: Assets/Data/Scenes/Menus/MainMenu/MainMenu.unity
+      m_address: MainMenu
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -853,7 +1078,7 @@ MonoBehaviour:
     m_processorClass: UnityEditor.AddressableAssets.BundledAssetGroupProcessor
     m_serializeEntries:
     - m_guid: f649de709cb070b478cb473e7e0d0fd4
-      m_address: Assets/Data/Scenes/Menus/MatchEnd.unity
+      m_address: MatchEnd
       m_readOnly: 0
       m_serializedLabels: []
     m_readOnly: 0
@@ -908,6 +1133,6 @@ MonoBehaviour:
     m_labelNames:
     - default
     - character
-    - stage
-    - menu
+    - scene
+    - options
   m_activeProfileId: 36a2d525dad3e30459583d885a09aed6

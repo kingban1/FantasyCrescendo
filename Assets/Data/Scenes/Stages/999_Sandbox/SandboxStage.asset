@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -17,9 +17,15 @@ MonoBehaviour:
   IsDebug: 1
   Type: 1
   Name: Sandbox Stage
-  _scene: 
-  _icon: icons:marisa_icon
-  _previewImage: icons:marisa_icon
+  Scene:
+    m_assetGUID: 1804b2660a5853145981662154f935ab
+    m_cachedAsset: {fileID: 102900000, guid: 1804b2660a5853145981662154f935ab, type: 3}
+  Icon:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  PreviewImage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
   LoadPriority: 0
   Music:
   - {fileID: 11400000, guid: b8dfe2a858fbe944f8f8442856dcfe15, type: 2}

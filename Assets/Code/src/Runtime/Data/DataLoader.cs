@@ -22,8 +22,8 @@ public class DataLoader : MonoBehaviour {
   /// </summary>
   public GameMode[] GameModes;
 
-  public string[] CharacterTags = new[] { "character" };
-  public string[]  SceneTags = new[] { "stage", "menu" };
+  public AssetLabelReference[] CharacterLabels;
+  public AssetLabelReference[] SceneLabels;
 
   /// <summary>
   /// Awake is called when the script instance is being loaded.
@@ -32,16 +32,16 @@ public class DataLoader : MonoBehaviour {
     LoadingScreen.Await(LoadTask.Task);
     RegisterAll<GameMode>(GameModes);
     await Task.WhenAll(
-      LoadAndRegister<CharacterData>(CharacterTags),
-      LoadAndRegister<SceneData>(SceneTags)
+      LoadAndRegister<CharacterData>(CharacterLabels),
+      LoadAndRegister<SceneData>(SceneLabels)
     );
     LoadTask.TrySetResult(new object());
     Debug.Log("Finished loading data");
   }
 
-  async Task LoadAndRegister<T>(IEnumerable<string> tags) where T : UnityEngine.Object, IEntity {
+  async Task LoadAndRegister<T>(IEnumerable<AssetLabelReference> labels) where T : UnityEngine.Object, IEntity {
     Debug.Log($"Loading {typeof(T)}...");
-    var loadSets = await Task.WhenAll(tags.Select(tag => Addressables.LoadAssets<T>(tag, null).ToTask()));
+    var loadSets = await Task.WhenAll(labels.Select(label => Addressables.LoadAssets<T>(label.labelString, null).ToTask()));
     foreach (var loadSet in loadSets) {
       RegisterAll<T>(loadSet);
     }

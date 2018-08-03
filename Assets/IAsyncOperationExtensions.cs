@@ -10,19 +10,26 @@ public static class AssetReferenceExtensions {
 
   public static async Task<T> LoadAssetAsync<T>(this AssetReference reference)
                                                 where T : UnityEngine.Object {
-    return await reference.LoadAsset<T>().ToTask();
+    Debug.Log($"[Addressables] Loading asset {reference}...");
+    var result = await reference.LoadAsset<T>().ToTask();
+    Debug.Log($"[Addressables] Loaded asset {reference}.");
+    return result;
   }
 
   public static async Task<T> InstantiateAsync<T>(this AssetReference reference,
                                                   Vector3 position = default(Vector3),
                                                   Quaternion rotation = default(Quaternion))
                                                   where T : UnityEngine.Object {
-    return await reference.Instantiate<T>(position, rotation).ToTask();
+    Debug.Log($"[Addressables] Instantiating {reference}...");
+    var result = await reference.Instantiate<T>().ToTask();
+    Debug.Log($"[Addressables] Instantiated {reference}.");
+    return result;
   }
 
-
   public static async Task LoadSceneAsync(this AssetReference reference, LoadSceneMode mode = LoadSceneMode.Single) {
-    var result = await Addressables.LoadScene(reference, mode).ToTask();
+    Debug.Log($"[Addressables] Loading scene {reference}...");
+    await Addressables.LoadScene(reference, mode).ToTask();
+    Debug.Log($"[Addressables] Loaded scene {reference}.");
   }
 
 }

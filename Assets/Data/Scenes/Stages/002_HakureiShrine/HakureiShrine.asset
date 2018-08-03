@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -15,9 +15,18 @@ MonoBehaviour:
   IsSelectable: 1
   IsVisible: 0
   IsDebug: 0
-  IsStage: 1
+  Type: 1
   Name: Hakurei Shrine
-  _scene: 
+  Scene:
+    m_assetGUID: 7a1d3fdcc6ce4554389aa7ef959f1d5f
+    m_cachedAsset: {fileID: 102900000, guid: 7a1d3fdcc6ce4554389aa7ef959f1d5f, type: 3}
+  Icon:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  PreviewImage:
+    m_assetGUID: 
+    m_cachedAsset: {fileID: 0}
+  LoadPriority: 0
   Music:
   - {fileID: 11400000, guid: b8dfe2a858fbe944f8f8442856dcfe15, type: 2}
   - {fileID: 11400000, guid: cc5e2ccfe5b429f4ca81d750dc4c2ba0, type: 2}

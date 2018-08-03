@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b065f1d67cd3b4883ff7bd69022f36, type: 3}
   m_Name: forgathered_pandemonium
   m_EditorClassIdentifier: 
-  _audioClip: bgm/shrine:Forgathered Pandemonium ~ World Collapse
+  Clip:
+    m_assetGUID: 004c457c149de344ebd44f76f6fcb81a
+    m_cachedAsset: {fileID: 8300000, guid: 004c457c149de344ebd44f76f6fcb81a, type: 3}
   Author: 
   Original: 
   DefaultWeight: 0
