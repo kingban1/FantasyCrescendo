@@ -61,7 +61,7 @@ Windows 10) or [GitBash](https://git-scm.com/downloads)
 git clone https://github.com/HouraiTeahouse/FantasyCrescendo # Clone the
 repository
 cd FantasyCrescendo # Change directory to the cloned repo
-git submodule init --recursive
+git submodule update --recursive
 ```
 
 ### Loading into the Unity Editor
